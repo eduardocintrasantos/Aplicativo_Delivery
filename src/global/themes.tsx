@@ -14,5 +14,10 @@ export const themas = {
         g: 22,
         xg: 32,
         xxg: 64
+    },
+    logo: {
+        with:100,
+        height:300,
+        resizeMode: 'center'
     }
 }

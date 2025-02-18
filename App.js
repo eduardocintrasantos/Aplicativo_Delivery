@@ -1,11 +1,10 @@
-import { Text, View } from "react-native";
-import Button from "./src/components/button/button";
+import { View } from "react-native";
+import Login from "./src/screens/login/login";
 
 export default function App() {
   return (
     <View>
-      <Text>Hello World!</Text>
-      <Button tituloBtn="Acessar" />
+      <Login></Login>
     </View>
   );
 }
