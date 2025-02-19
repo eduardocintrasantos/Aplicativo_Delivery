@@ -6,7 +6,10 @@ function TextBox(props) {
     return (
         <View>
             <Text style={styles.label}>{props.titulo}</Text>
-            <TextInput style={styles.input}/>
+            <TextInput style={styles.input}
+                       placeholder={props.placeholder}
+                       secureTextEntry={props.isPassword}>
+            </TextInput>
         </View>
     )
 }

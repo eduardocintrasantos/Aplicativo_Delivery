@@ -11,11 +11,11 @@ export const styles = {
   },
   form: {
     width: "100%",
-    marginBottom: 25
+    marginBottom: 15
   },
   formGroup: {
     width: "100%",
-    marginTop: 50
+    marginTop: 30
   },
   footer: {
     width: "100%",
